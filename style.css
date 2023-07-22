@@ -1,0 +1,91 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body{
+  background-image: url('Bg.jpg');
+  background-repeat: repeat;
+  background-size: cover;
+}
+#header{
+  background-color: white;
+  height: 10vh;
+  display: flex;
+  flex-direction: row-reverse;
+  
+}
+#header a{
+  margin: 0.8rem;
+  text-decoration: none;
+}
+
+
+
+#main{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+  padding-right: 19rem;
+  flex-direction: column;
+}
+h1{
+  color: rgb(70, 37, 214);
+  display: block;
+  position: absolute;
+  margin-bottom: 8rem;
+  font-size: 4rem;
+}
+
+#element{
+  color: white;
+  font-size: 3rem;
+  color: blue;
+  margin: 3rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+@media only screen 
+    and (min-width : 30px)  and (max-width:450px)
+    and (min-height : 80px) and (max-height:1000px) 
+{
+  body{
+    background-image: url('1.jpg');
+    background-repeat: no-repeat;
+    
+    
+  }
+  #header a{
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  #main{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    padding-right: 0rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    color: white;
+
+  }
+  h1{
+    color: aqua;
+    margin: 4rem;
+
+  }
+  #element{
+    margin-top: 20rem;
+    color: white;
+  }
+  
+}
